@@ -10,7 +10,7 @@ if _G.key == _G.Key then
 	local text = "Permanent Ban"
 
 	if random == 1 then
-		text = "Anti Cheat Detected"
+		text = "Anti Cheat : Cheat Detected"
 	elseif random == 2 then
 		text = "Permanent Ban"
 	elseif random == 3 then
